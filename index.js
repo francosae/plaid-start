@@ -583,3 +583,5 @@ const authorizeAndCreateTransfer = async (accessToken) => {
   prettyPrintResponse(transferResponse);
   return transferResponse.data.transfer.id;
 };
+]
+module.exports = app;
